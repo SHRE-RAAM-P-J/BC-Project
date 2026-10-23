@@ -1,0 +1,24 @@
+{
+  "name": "medichain-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MediChain — Blockchain-Based Medicine Authenticity and Supply-Chain Verification System",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:blockchain": "npm --prefix blockchain run node"
+  },
+  "keywords": [
+    "blockchain",
+    "pharma",
+    "supply-chain",
+    "medicine-authenticity",
+    "smart-contracts",
+    "solidity",
+    "ethereum",
+    "react"
+  ],
+  "author": "MediChain Project Team",
+  "license": "MIT"
+}
